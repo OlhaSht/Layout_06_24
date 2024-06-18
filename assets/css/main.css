@@ -60,3 +60,46 @@
 .main-nav-sub-link.child{
     padding-left: 25px;
 }
+
+.mein-icon{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px;
+}
+.mein-icon-user{
+    position: relative;
+    margin:  0 0 0 30px;
+}
+.icon-drop-down{
+    display: none;
+    width: 160px;
+    position: absolute;
+    /* left: -70px; */
+    transform: translateX(-50%);
+    left: 5px;
+    /* right: 5px; */
+    margin: auto;
+    padding: 7px 0px;
+    background-color: #ffff;
+    color: #343434;
+    border-radius: 10px;
+    -webkit-box-shadow:  0 0 20 0 rgb(0 0 0 / .2);
+    box-shadow: 0 0 20 0 rgb(0 0 0 / .2);
+}
+.mein-icon-user:hover .icon-drop-down{
+    display: block;
+}
+.icon-link{
+    height: 44px;
+}
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 44px;
+    padding: 2px 12px;
+}
+.icon-link:hover .icon-text{
+    background-color: #efefef;
+    color: #637CF7;
+}
