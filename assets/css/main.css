@@ -7,6 +7,8 @@
     box-shadow: 0 2 6 0 rgb(0 0 0 /.12);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .main-logo{
     width: 140px;
@@ -24,7 +26,7 @@
     position: relative;
 }
 .main-nav-link{
-    font-size: 14px;
+    font-size: 16px;
     color:#19184a;
 }
 .main-nav-link .fa-chevron-down{
@@ -64,9 +66,9 @@
 .mein-icon{
     display: flex;
     flex-direction: row;
-    margin: 20px 30px;
+    margin-right: 130px ;
 }
-.mein-icon-user{
+.mein-icon-nav{
     position: relative;
     margin:  0 0 0 30px;
 }
@@ -74,10 +76,8 @@
     display: none;
     width: 160px;
     position: absolute;
-    /* left: -70px; */
     transform: translateX(-50%);
     left: 5px;
-    /* right: 5px; */
     margin: auto;
     padding: 7px 0px;
     background-color: #ffff;
@@ -86,7 +86,7 @@
     -webkit-box-shadow:  0 0 20 0 rgb(0 0 0 / .2);
     box-shadow: 0 0 20 0 rgb(0 0 0 / .2);
 }
-.mein-icon-user:hover .icon-drop-down{
+.mein-icon-nav:hover .icon-drop-down{
     display: block;
 }
 .icon-link{
@@ -102,4 +102,11 @@
 .icon-link:hover .icon-text{
     background-color: #efefef;
     color: #637CF7;
+}
+.icon-nav{
+    margin-right: 10px;
+    color:rgba(88, 92, 88, 0.89);
+}
+.icon-link:hover .icon-nav{
+    color:#343434;
 }
