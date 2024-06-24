@@ -3,7 +3,7 @@
     height: 42vh;
     margin-top: 3vh;
     padding: 3vh 3vw;
-    background-color: #ee44;
+    background-color: #eeefff;
     display: flex;
     flex-direction: row;
 }
@@ -42,8 +42,14 @@
     border-radius: 8px;
     background-color:#3D57D5;
     color:#ffff;
+    background: linear-gradient(45deg, #5A73ED 0%, #3D57D5 100%);
+    transition: 0.5s;
     font-size: 16px;
 }
+.work-button:hover{
+    background: linear-gradient(-45deg, #5A73ED 0%, #3D57D5 100%);
+}
+
 .work-button-text{
     padding-left: 5px;
 }
