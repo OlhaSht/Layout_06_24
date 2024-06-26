@@ -1,9 +1,8 @@
 .work-container{
     width: 100%;
-    height: 42vh;
-    margin-top: 3vh;
+    height: 38vh;
+    margin: 3vh 0 5vh 0;
     padding: 3vh 3vw;
-    background-color: #eeefff;
     display: flex;
     flex-direction: row;
 }

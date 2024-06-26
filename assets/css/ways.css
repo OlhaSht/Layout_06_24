@@ -1,0 +1,102 @@
+.ways-container{
+    width: 100%;
+    height: 82vh;
+    background: linear-gradient(271.19deg, rgba(48, 125, 246, .05) 0%, rgba(20, 187, 191, .05) 100%), #FFFFFF;
+}
+.ways-container-info{
+    width: 500px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+.ways-container-marker{
+    width: 80px;
+    margin-top: 7vh;
+    margin-left: 40%;
+    padding: 10px 5px 10px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #377DFF;
+    background-color:#377DFF1A;
+}
+.ways-container-title{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #19184A;
+}
+.ways-container-subtitle{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #19184A;
+}
+
+.ways-content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+}
+.ways-content-block{
+    width: 70%;
+    height: 39vh;
+    margin: 35px 11px 5px 11px;
+    padding: 10px 10px 0 10px;
+    border-radius:24px;
+    background-color:#FFF;
+    box-shadow: 0 16px 32px rgb(0 0 0 / .04);
+}
+.content-block{
+    position: relative;
+    width: 90%;
+    height: 88%;
+    margin: 15px 20px 0 20px;
+    
+}
+.ways-contant-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ways-content-info{
+    margin-top: 10px;
+    font-size: 16px;
+    color:#828282;
+    line-height: 25px;
+}
+
+.ways-button{
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #5A73ED 0%, #3D57D5 100%);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.ways-button:hover{
+    background: linear-gradient(-45deg, #5A73ED 0%, #3D57D5 100%);
+    transition: 0.5s;
+}
+.ways-botton-text{
+    margin-left: 10px;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ways-arrow{
+    margin-left: 10px; 
+}
+.ways-button:hover .ways-arrow{
+    margin: 15px;
+    transition: 0.5s;
+}
+
+
