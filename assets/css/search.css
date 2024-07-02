@@ -1,10 +1,8 @@
 .search-container{
     width: 100%;
-    /* background-color: rgb(99 124 247 / .08); */
-    background-color: #aa4499;
+    background-color: rgb(99 124 247 / .08);
 }
 .search-container-section{
-    background-color: #bb5500;
     width: 95%;
     margin: auto;
     padding-top: 5vh;
@@ -40,4 +38,30 @@
     justify-content: center;
     border-radius: 50%;
     background: #FF6955;
+}
+
+.search-nav{
+    width: 43.5vw;
+    margin: auto;
+    padding-top: 4vh;
+    padding-bottom: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-nav-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #343434;
+}
+.search-nav-livk{
+    padding: 1.2vh 0.8vw;
+    background-color: rgb(99 124 247 / .08);
+    border-radius: 20px
+}
+.search-link-text{
+    font-size: 16px;
+    color: #637CF7;
 }
