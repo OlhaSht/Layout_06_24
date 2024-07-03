@@ -61,6 +61,9 @@
     background-color: rgb(99 124 247 / .08);
     border-radius: 20px
 }
+.search-nav-livk:hover{
+    background-color: rgb(243,245,254);
+}
 .search-link-text{
     font-size: 16px;
     color: #637CF7;
