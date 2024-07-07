@@ -1,12 +1,12 @@
 .footer-menu-container{
-    width: 100%;
+    max-width: 80%;
+    margin: 40px 40px 0 100px;
     display: flex;
     flex-direction: row;   
 }
 .footer-menu-block{
     width: 20%;
     margin-left: 5vw;
-    padding: 2vh 3vw;
 }
 .footer-menu-ul{
     margin: 0 0 5vh 0;
