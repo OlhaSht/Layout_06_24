@@ -2,7 +2,7 @@
 .footer-container{
     width:80%;
     margin: auto;
-    padding: 50px 0;
+    padding: 60px 0;
     border-top: 1px solid #eeee;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@
 }
 .excellent-bassed{
    position: absolute;
-   left: 480px;
+   left: 33%;
    /* right: 0;
    margin: auto; */
 }
