@@ -1,6 +1,6 @@
 .ways-container{
     width: 100%;
-    height: 82vh;
+    height: 757px;
     background: linear-gradient(271.19deg, rgba(48, 125, 246, .05) 0%, rgba(20, 187, 191, .05) 100%), #FFFFFF;
 }
 .ways-container-info{
@@ -37,23 +37,30 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 40vh;
     margin: auto;
 }
 .ways-content-block{
-    width: 70%;
-    height: 39vh;
+    width: 33%;
+    /* height: 368px; */
     margin: 35px 11px 5px 11px;
-    padding: 10px 10px 0 10px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
     border-radius:24px;
     background-color:#FFF;
     box-shadow: 0 16px 32px rgb(0 0 0 / .04);
 }
-.content-block{
-    position: relative;
+/* .content-block{
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    height: 88%;
     margin: 15px 20px 0 20px;
+    background-color: pink;
+    
+} */
+.ways-contant-icon{
+    width: 48px;
+    height: 48px;
     
 }
 .ways-contant-title{
@@ -62,7 +69,7 @@
     font-weight: 700;
 }
 .ways-content-info{
-    margin-top: 10px;
+    margin: 10px 0 70px 0;
     font-size: 16px;
     color:#828282;
     line-height: 25px;
@@ -71,12 +78,9 @@
 .ways-button{
     display: inline-flex;
     align-items: center;
-    width: 70%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: fit-content;
+    min-height: 50px;
+    margin-top: auto;
     background: linear-gradient(45deg, #5A73ED 0%, #3D57D5 100%);
     transition: 0.5s;
     border-radius: 8px;
@@ -93,6 +97,7 @@
 }
 .ways-arrow{
     margin-left: 10px; 
+    padding-right: 10px;
 }
 .ways-button:hover .ways-arrow{
     margin: 15px;

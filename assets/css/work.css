@@ -13,6 +13,34 @@
     margin-left: 6%;
     padding: 0 1%;
 }
+@media screen and (max-width: 992px){
+    .work-container {
+        width: 992px;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .work-container-block{
+        width: 900px;
+        text-align: center;
+    }
+    .work-marker{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 767px){
+    .work-container {
+        width: 760px;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .work-container-block{
+        width: 650px;
+        text-align: center;
+    }
+    .work-marker{
+        margin: auto;
+    }
+}
 .work-container-content{
     width: 80%;
     margin: auto;
@@ -20,7 +48,7 @@
 .work-marker{
     width: 160px;
     margin-top: 30px;
-    padding: 15px 5px 15px 15px;
+    padding: 15px 15px 15px 15px;
     font-size: 12px;
     border-radius: 20px;
     color: #377DFF;
