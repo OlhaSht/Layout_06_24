@@ -15,12 +15,12 @@
 }
 @media screen and (max-width: 992px){
     .work-container {
-        width: 992px;
+        width: 100%;
         display: flex;
         flex-flow: column-reverse;
     }
     .work-container-block{
-        width: 900px;
+        width: 90%;
         text-align: center;
     }
     .work-marker{
@@ -29,12 +29,12 @@
 }
 @media screen and (max-width: 767px){
     .work-container {
-        width: 760px;
+        width: 100%;
         display: flex;
         flex-flow: column-reverse;
     }
     .work-container-block{
-        width: 650px;
+        width: 90%;
         text-align: center;
     }
     .work-marker{

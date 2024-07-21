@@ -1,6 +1,6 @@
 .ways-container{
     width: 100%;
-    height: 757px;
+    padding-bottom: 150px;
     background: linear-gradient(271.19deg, rgba(48, 125, 246, .05) 0%, rgba(20, 187, 191, .05) 100%), #FFFFFF;
 }
 .ways-container-info{
@@ -9,13 +9,18 @@
     padding: 10px 15px 10px 15px;
     text-align: center;
 }
+@media screen and (max-width: 565px){
+    .ways-container-info{
+        width: 300px;
+    }
+}
 .ways-container-marker{
     width: 80px;
     margin-top: 7vh;
     margin-left: 40%;
     padding: 10px 5px 10px 5px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 20px;
     color: #377DFF;
     background-color:#377DFF1A;
@@ -29,7 +34,7 @@
 .ways-container-subtitle{
     margin-top: 20px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: #19184A;
 }
 
@@ -38,6 +43,18 @@
     flex-direction: row;
     width: 80%;
     margin: auto;
+}
+@media screen and (max-width:992px) {
+    .ways-content{
+        flex-wrap: wrap;  
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .ways-content{
+        width: 100%;  
+    }
+    
 }
 .ways-content-block{
     width: 33%;
@@ -49,6 +66,13 @@
     border-radius:24px;
     background-color:#FFF;
     box-shadow: 0 16px 32px rgb(0 0 0 / .04);
+}
+@media screen and (max-width:576px) {
+    .ways-content-block{
+        width: 100%; 
+        align-items:center; 
+    }
+    
 }
 /* .content-block{
     display: flex;
@@ -74,7 +98,12 @@
     color:#828282;
     line-height: 25px;
 }
-
+@media screen and (max-width:576px) {
+    .ways-content-info{
+        font-size: 14px;
+        text-align: center;
+    }
+}
 .ways-button{
     display: inline-flex;
     align-items: center;
