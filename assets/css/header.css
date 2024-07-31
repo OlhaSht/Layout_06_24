@@ -1,9 +1,12 @@
-  /* .container{ 
-    width: 100vw;  
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-  }   */
+@media screen and (max-width:991px){
+    .header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+}
 .header-container{
     width: 100%;
     height: 46px;

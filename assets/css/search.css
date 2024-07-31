@@ -41,6 +41,7 @@
     font-weight: 400;
     color: #a9a3b7;
     border: none;
+    outline: none;
 }
 @media screen and (max-width: 575px){
     .search-block-input{
