@@ -66,6 +66,13 @@
     color:#19184a80;
     line-height: 25px;
 }
+@media screen and (max-width: 320px){
+    .work-title{
+        font-size: 24px;
+    }
+    
+}
+
 .work-button{
     width: 140px;
     height: 50px;
@@ -87,4 +94,9 @@
 .work-img{
     max-width: 450px;
     height: 390px;
+}
+@media screen and (max-width: 575px) {
+    .work-img{
+        max-width: 100%;
+    }
 }

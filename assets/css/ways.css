@@ -14,6 +14,7 @@
         width: 300px;
     }
 }
+
 .ways-container-marker{
     width: 80px;
     margin-top: 7vh;
@@ -36,6 +37,19 @@
     font-size: 16px;
     font-weight: 400;
     color: #19184A;
+}
+
+@media screen and (max-width: 320px){
+    .ways-container-info{
+        width: 200px;
+    }
+    .ways-container-marker{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ways-container-title{
+        font-size: 24px;
+    }
 }
 
 .ways-content{

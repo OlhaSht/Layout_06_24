@@ -17,9 +17,10 @@
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:480px) {
     .main-container-nav{
-        
+        max-width: 100%;
+        margin: 0 10px 0 10px;
     }
 }
 .main-logo{
@@ -27,6 +28,7 @@
     height: 52px;
     margin-top: 15px;
 }
+
 .main-nav{
     width: 100%;
     display: flex;
@@ -44,7 +46,7 @@
     position: relative;
 }
 .main-nav-link{
-    font-size: 16px;
+    font-size: 14px;
     color:#19184a;
 }
 .main-nav-link .fa-chevron-down{
@@ -81,6 +83,7 @@
     padding-left: 25px;
 }
 
+
 .mein-icon{
     width: 100%;
     display: flex;
@@ -92,6 +95,29 @@
     position: relative;
     margin:  0 0 0 30px;
 }
+
+@media screen and (max-width: 480px){
+    .mein-icon{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .mein-icon-nav{
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .mein-icon{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .mein-icon-nav{
+        margin: 0 0 0 10px;
+    }
+}
+
 .icon-drop-down{
     display: none;
     width: 160px;

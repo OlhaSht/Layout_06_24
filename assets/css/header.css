@@ -1,3 +1,8 @@
+
+.body{
+    max-width: 100%;
+}
+
 @media screen and (max-width:991px){
     .header{
         position: fixed;
@@ -9,13 +14,13 @@
 }
 .header-container{
     width: 100%;
-    height: 46px;
     background-color: #343434;
 }
 .header-block{
     width: 99%;
-    height: 45px;
+    /* height: 45px; */
     margin: auto;
+    padding: 10px 0;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -26,7 +31,8 @@
     font-size: 16px;
     font-weight: 700;
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 767px){
     .header-link{
         font-size: 14px;
     }
@@ -37,12 +43,16 @@
 
 .header-button{
     width: 90px;
-    height: 31px;
     margin: 0 0 0 20px;
-    padding: 6px 8px;
+    padding: 8px 8px;
     border-radius: 8px;
     border: 1px solid #637CF7;
     background-color: #19184A;
     color: #637CF7;
     font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+    .header-button{
+        width: ;
+    }
 }
